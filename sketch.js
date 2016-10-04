@@ -33,7 +33,7 @@ fill(c);
 
 
  
-ellipse(x,y,50,mouseX);
+ellipse(x,mouseY,50,mouseX);
 if(x >= width-25){
  speed = -speed;
 
